@@ -1,0 +1,45 @@
+.container{
+    position: sticky;
+
+    display: flex;
+    justify-content: left;
+    padding: .5rem;
+    gap: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+
+    /* margin-top: .5rem; */
+    /* border: 2px solid black;
+    border-radius: 2rem; */
+    /* background-color: rgb(0, 0, 0) ; */
+    /* position: sticky; */
+}
+
+.Button {
+    font-size: 1.05rem;
+    color: rgb(162, 6, 193);
+    padding: .45rem;
+    background: rgba(255, 255, 255, 0.581);
+    border-radius: 2rem;
+   padding-left: 1.2em;
+   padding-right: 1.2em;
+   font-family: "Roboto Mono", 'Courier New';
+   border: 2px solid rgb(32, 195, 0);
+   -webkit-text-stroke-width: .3px;
+    -webkit-text-stroke-color: rgb(194, 9, 179);
+   
+}
+
+
+.space{
+    background-color: rgba(255, 255, 255, 0) 
+
+}
+
+.Button:hover, .Botton:focus {
+    color: white;
+    -webkit-text-stroke-width: .3px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    background: rgba(211, 0, 253, 0.766);
+
+}

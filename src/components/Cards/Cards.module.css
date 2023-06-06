@@ -1,13 +1,16 @@
-@font-face {
-   font-family: RickAndMorty;
-   src: url(../../Recursos/Fonts/get_schwifty.ttf);
-}
+.container{
+   display: grid;
+   /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+   grid-template-columns: repeat(auto-fit, minmax(330px, 330px));
+   justify-content: center;
+   grid-auto-flow: dense; 
 
+   gap: 2rem;
+   margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+   /* align-items: flex-start; */
 
-.App {
-   text-align: center;
-   
- 
 }
 
 .tituloPag{
@@ -22,13 +25,6 @@
    -webkit-text-stroke-width: 2px;
    -webkit-text-stroke-color: rgba(19, 230, 0, 0.495);
    
-} 
-
-.center{
-
-   display: flex;
-   /* grid-template-columns: 1fr 1fr;  */
-   align-items: center;
-   justify-content: center;
-
+  
+   
 }

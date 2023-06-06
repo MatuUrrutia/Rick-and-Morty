@@ -1,0 +1,50 @@
+.container{
+
+    /* background: rgba(255, 0, 0, 0.888); */
+    /* background-image: url("C:\Users\matuu\Desktop\HENRY UNIVERSITY\01_BOOTCAMP\M2\RickAndMorty\Recursos\Background\Back_ground_FINAL.jpg"); */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    background: rgba(250, 250, 250, 0.647);
+    padding: 3rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.201);
+    border-radius: 2rem;
+    
+    display: flex;
+    /* grid-template-columns: 1fr 1fr; */
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+   
+   
+    /* max-width: 1200px; */
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.name{
+
+    position: relative;
+    margin-top: 5px;
+    font-family: "RickAndMorty", "Roboto Mono", 'Courier New';
+    font-size: 3em;
+    font-stretch: extra-expanded;
+    color:rgb(155, 3, 201) ;
+    font-weight: bolder;
+    /* -webkit-text-stroke: rgb(0, 0, 0); */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgba(19, 230, 0, 0.495);
+}
+
+.aboutImg{
+
+    overflow: hidden;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    /* scale: calc(.85); */
+    /* object-position: center; */
+    /* align-items: center; */
+   
+}

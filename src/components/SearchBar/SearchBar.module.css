@@ -1,0 +1,45 @@
+.container{
+   
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    border-radius: 2rem;
+ 
+}
+
+.inputBox{
+    padding: .45rem;
+    background: rgba(255, 255, 255, 0.581);
+    border-radius: 2rem;
+    margin-right: 1rem; 
+    border: 2px solid rgb(32, 195, 0);
+    font-size: 1.05rem;
+    color: rgb(162, 6, 193);
+    -webkit-text-stroke-width: .3px;
+    -webkit-text-stroke-color: rgb(194, 9, 179);
+    font-family: "Roboto Mono", 'Courier New';
+   
+}
+
+.Button {
+    font-size: 1.05rem;
+    color: rgb(162, 6, 193);
+    padding: .45rem;
+    background: rgba(255, 255, 255, 0.581);
+    border-radius: 2rem;
+   padding-left: 1.2em;
+   padding-right: 1.2em;
+   font-family: "Roboto Mono", 'Courier New';
+   border: 2px solid rgb(32, 195, 0);
+   -webkit-text-stroke-width: .3px;
+    -webkit-text-stroke-color: rgb(194, 9, 179);
+   
+}
+
+.Button:hover, .Botton:focus {
+    color: white;
+    -webkit-text-stroke-width: .3px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    background: rgba(211, 0, 253, 0.766);
+
+}

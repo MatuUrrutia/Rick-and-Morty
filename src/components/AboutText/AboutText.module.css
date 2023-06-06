@@ -1,0 +1,24 @@
+.header{
+    font-family: "Press Start 2P", "Roboto Mono";
+    color: rgb(155, 3, 201);
+    font-size: .75rem;
+    font-weight: bold;
+    text-decoration: underline dotted;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+
+}
+
+.body{
+
+    color:  rgb(6, 73, 0);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1rem;
+    font-family:  "Roboto Mono", 'Courier New';
+    font-weight: 700;
+    -webkit-text-stroke-width: .8px;
+    -webkit-text-stroke-color: rgb(52, 194, 9);
+    max-width: 500px;
+  
+}

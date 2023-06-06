@@ -5,6 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-image: url("C:\Users\matuu\Desktop\HENRY UNIVERSITY\01_BOOTCAMP\M2\RickAndMorty\Recursos\Background\sccpre.cat-slime-png-2027588.webp"); */
+  background-image: url("C:\Users\matuu\Desktop\HENRY UNIVERSITY\01_BOOTCAMP\M2\RickAndMorty\Recursos\Background\Back_ground_FINAL.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-color: rgb(71, 8, 130);
+
+ 
 }
 
 code {
