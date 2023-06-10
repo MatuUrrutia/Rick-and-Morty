@@ -1,66 +1,69 @@
-import {useState} from "react";
-
-
+import { useState } from "react";
+import style from "./LoginForm.module.css";
 import validation from "./Validation";
 
-export default function LoginForm({login}){
+export default function LoginForm({ login }) {
+  const [userData, setUserData] = useState({
+    username: "",
+    password: "",
+  });
 
-    const [userData, setUserData] = useState ({
-            username: '',
-            password: ''
-    })
+  const [errors, setErrors] = useState({
+    username: "",
+    password: "",
+  });
 
+  const handleInputChange = (event) => {
+    const property = event.target.name;
+    const value = event.target.value;
 
-    const [errors, setErrors] = useState ({
-            username: '',
-            password: ''
-    })
+    setUserData({ ...userData, [property]: value });
+    validation({ ...userData, [property]: value }, errors, setErrors);
+  };
 
-    const handleInputChange = (event) =>{
+  const submitHandler = (event) => {
+    event.preventDefault();
+    login(userData);
+  };
 
-        const property = event.target.name;
-        const value = event.target.value;
+  return (
+    <form className={style.container} onSubmit={submitHandler}>
+      <h2 className={style.cardHeader}> Bienvenidos </h2>
 
-        setUserData({...userData, [property]: value })
-        validation({...userData, [property]: value }, errors, setErrors)
-    };
-
-    const submitHandler = (event) => {
-        event.preventDefault();
-        login(userData);
-    }
-
-return(
-
-    <form onSubmit={submitHandler}>
-
+      <h1 className={style.tituloPag}> Rick and Morty </h1>
+      <div>
         <div>
-            <label htmlFor="username">Username:</label>
-            <input 
-                type="text" 
-                name="username" 
-                value={userData.username} 
-                onChange={handleInputChange}
-            />
-            <p>{errors.username}</p>
+          <label className={style.label} htmlFor="username">
+            Username:
+          </label>
+          <input
+            className={style.inputBox}
+            type="text"
+            placeholder="Ingresa tu email"
+            name="username"
+            value={userData.username}
+            onChange={handleInputChange}
+          />
+          <p className={style.errors}>{errors.username}</p>
         </div>
 
         <div>
-            <label htmlFor="password">Password:</label>
-            <input 
-                type="text" 
-                name="password" 
-                value={userData.password}
-                onChange={handleInputChange}
-            />
-            <p>{errors.password}</p>
+          <label className={style.label} htmlFor="password">
+            Password:
+          </label>
+          <input
+            className={style.inputBox}
+            type="text"
+            placeholder="Ingresa tu password"
+            name="password"
+            value={userData.password}
+            onChange={handleInputChange}
+          />
+          <p className={style.errors}>{errors.password}</p>
         </div>
 
-        <button>Login</button>
-
+        <button className={style.button}>Login</button>
+      </div>
     </form>
-
-)
-
+  );
 }
-

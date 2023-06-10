@@ -15,16 +15,28 @@
 
 .tituloPag{
    position: relative;
-   margin-top: 5px;
+   margin-top: 2rem;
+   margin-bottom: 1rem;
    font-family: "RickAndMorty", "Roboto Mono", 'Courier New';
-   font-size: 5em;
-   font-stretch: extra-expanded;
-   color:rgb(155, 3, 201) ;
-   font-weight: bolder;
+   font-size: 8rem;
+   /* font-stretch: extra-expanded; */
+   color:rgb(155, 3, 201);
+   /* font-weight: bolder; */
    /* -webkit-text-stroke: rgb(0, 0, 0); */
-   -webkit-text-stroke-width: 2px;
-   -webkit-text-stroke-color: rgba(19, 230, 0, 0.495);
+   -webkit-text-fill-color: rgb(155, 3, 201);
+   -webkit-text-stroke-width: .001px;
+   -webkit-text-stroke-color:  rgba(19, 230, 0, 0.842);
    
   
+   
+}
+
+.cardHeader{
+   margin-top: 3rem;
+   font-family: "Press Start 2P", "Roboto Mono";
+   color: rgb(155, 3, 201);
+   font-size: .9rem;
+   font-weight: bold;
+   /* text-decoration: underline dotted; */
    
 }
