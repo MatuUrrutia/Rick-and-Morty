@@ -1,0 +1,127 @@
+
+.container{
+   
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+
+   position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   margin: auto;
+   
+   background-image: url(../../assets/img/rick-y-morty-portal-dimensional-6603.webp);
+   background-size: cover;
+
+    
+}
+
+.positionCenter{
+
+
+
+}
+
+.inputBox{
+
+    
+
+    position: relative;
+    padding: .45rem;
+    background: rgba(255, 255, 255, 0.735);
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    margin-right: 1rem; 
+    border: 2px solid rgb(162, 6, 193);
+    border-left: 0px;
+    font-size: 1.05rem;
+    color: rgb(162, 6, 193);
+    -webkit-text-stroke-width: .3px;
+    -webkit-text-stroke-color: rgb(194, 9, 179);
+    font-family: "Roboto Mono", 'Courier New';
+   
+}
+
+.label {
+    
+    position: relative;
+    font-size: 1.05rem;
+    color: rgb(162, 6, 193);
+    padding: .45rem;
+    background: rgba(255, 255, 255, 0.735);
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+   padding-left: 1.2em;
+   padding-right: 1.2em;
+   font-family: "Roboto Mono", 'Courier New';
+   border: 2px solid rgb(162, 6, 193);
+   -webkit-text-stroke-width: .3px;
+    -webkit-text-stroke-color: rgb(194, 9, 179);
+    
+   
+}
+
+
+.button {
+    margin-top: 2rem;
+    font-size: 1.05rem;
+    color: rgb(162, 6, 193);
+    padding: .45rem;
+    background: rgba(255, 255, 255, 0.735);
+    border-radius: 2rem;
+   padding-left: 1.2em;
+   padding-right: 1.2em;
+   font-family: "Roboto Mono", 'Courier New';
+   border: 2px solid rgb(162, 6, 193);
+   -webkit-text-stroke-width: .3px;
+    -webkit-text-stroke-color: rgb(194, 9, 179);
+   
+}
+
+.button:hover, .Botton:focus {
+    color: white;
+    -webkit-text-stroke-width: .3px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    background: rgba(211, 0, 253, 0.766);
+
+}
+
+.tituloPag{
+    position: relative;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    font-family: "RickAndMorty", "Roboto Mono", 'Courier New';
+    font-size: 9em;
+    font-stretch: extra-expanded;
+    color:rgb(155, 3, 201) ;
+    font-weight: bolder;
+    /* -webkit-text-stroke: rgb(0, 0, 0); */
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: rgba(19, 230, 0, 0.798);
+    
+   
+    
+ }
+
+ .cardHeader{
+    margin-top: 3rem;
+    font-family: "Press Start 2P", "Roboto Mono";
+    color: rgb(155, 3, 201);
+    font-size: 1.1rem;
+    font-weight: bold;
+    /* text-decoration: underline dotted; */
+    
+
+}
+
+
+.errors{
+
+    color: rgb(255, 0, 0);
+    -webkit-text-stroke-width: .3px;
+    -webkit-text-stroke-color: rgb(255, 0, 0);
+
+}

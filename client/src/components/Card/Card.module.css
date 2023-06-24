@@ -1,0 +1,115 @@
+/* .cardFormatBorder{
+
+
+    background: rgba(0, 0, 0, 0.202);
+    padding: 1rem;
+    border: 4px solid black;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    justify-content: 20px;
+    
+    
+    
+} */
+
+.cardFormatShadow{
+    
+    background: rgba(250, 250, 250, 0.647);
+    padding: 1rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.201);
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    transform: translateZ(0);
+    transition: 500ms;
+    display: flex;
+    flex-direction: column;
+    
+
+
+
+}
+
+.cardFormatShadow:hover {
+
+transform: scale(1.05);
+
+
+
+}
+
+.cardHeader{
+    font-family: "Press Start 2P", "Roboto Mono";
+    color: rgb(155, 3, 201);
+    font-size: .8rem;
+    font-weight: bold;
+    text-decoration: underline dotted;
+    
+
+}
+
+
+
+.cardImage{
+
+    overflow: hidden;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    scale: calc(.85);
+    /* object-position: center; */
+    /* align-items: center; */
+   
+}
+
+
+.cardBody{
+
+    color:  rgb(6, 73, 0);
+    font-size: .7rem;
+    font-family:  "Roboto Mono", 'Courier New';
+    font-weight: 700;
+    -webkit-text-stroke-width: .8px;
+    -webkit-text-stroke-color: rgb(52, 194, 9);
+  
+    
+}
+
+.cardFooter{
+
+    display: flex;
+    justify-content: space-around;
+    gap: 4rem;
+    margin-top: 1.3rem;
+    
+        
+}
+
+.Botton{
+    background: rgba(131, 131, 131, 0.766);
+    color: white;
+    border: .12em solid rgb(86, 86, 86);
+    font-size: 1.1rem;
+    padding: .4em .65em;
+    border-radius: 2em;
+    cursor: pointer;
+    
+    
+}
+
+.Botton:hover, .Botton:focus {
+
+    background: rgba(224, 3, 3, 0.766);
+
+}
+
+.heart{
+
+font-size: 1.5rem;
+background-color: rgba(0, 0, 0, 0);
+border: .12em solid rgba(86, 86, 86, 0);
+/* margin-left: auto;  */
+}
